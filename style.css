@@ -5,12 +5,12 @@
 }
 
 .header {
-    max-width: 1180px;
+    max-width: 1080px;
     margin: 0 auto;
 }
 
 .name {
-    max-width: 270px;
+    max-width: 300px;
     margin: 0 auto;
     padding-top: 30px;
     color: #4A2C16;
@@ -19,6 +19,87 @@
     font-size: 60px;
 }
 
+.logo-container img {
+display: block;
+max-width: 300px;
+margin: 0 auto;
+}
+
 body {
-background-color: #FFF8EE;
+background-color: #FFF5E6;
+
+}
+
+.Yum {
+
+  max-width: 480px;
+  color: #4A2C16;
+  font-size: 38px;
+  margin: 20px auto 10px;
+  text-align: center;
+}
+
+
+.info {
+  font-size: 17px;
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+  line-height: 1.4;
+}
+
+.btn {
+    display: block;
+    max-width: 300px;
+    margin: 40px auto 0;
+    padding: 15px 20px;
+    background-color: #FFD56B;
+    border-radius: 10px;
+    border: 3px solid #000000;
+    box-shadow: 2px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.btna {
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.btn:hover {
+    background-color: #FFC04D;
+}
+
+.info-blocks {
+  max-width: 900px;
+  margin: 60px auto;
+  display: flex;
+  flex-wrap: wrap; /* чтобы переносилось на новую строку */
+  justify-content: space-between;
+  gap: 20px;
+  color: #4A2C16;
+  font-family: 'Baloo 2', 'Fredoka One', 'Poppins', 'Nunito', sans-serif;
+}
+
+.info-item {
+  width: 45%; /* две колонки по 45% */
+  background-color: #FFF5E6;
+}
+
+.info-item h3 {
+  font-size: 26px;
+  font-weight: 800;
+  margin-bottom: 8px;
+}
+
+.info-item p {
+  font-size: 16px;
+  line-height: 1.4;
+}
+@media (max-width: 768px) {
+  .info-item {
+    width: 100%; /* одна колонка на маленьких экранах */
+  }
 }
