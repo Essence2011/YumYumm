@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+.header {
+    max-width: 1180px;
+    margin: 0 auto;
+}
+
+.name {
+    max-width: 270px;
+    margin: 0 auto;
+    padding-top: 30px;
+    color: #4A2C16;
+    font-family: 'Baloo 2', 'Fredoka One', 'Poppins', 'Nunito', sans-serif;
+    font-weight: 760;
+    font-size: 60px;
+}
+
+body {
+background-color: #FFF8EE;
+}
